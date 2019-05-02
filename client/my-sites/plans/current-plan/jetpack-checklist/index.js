@@ -123,7 +123,7 @@ class JetpackChecklist extends PureComponent {
 							inProgress={ ! vaultpressFinished }
 						/>
 					) }
-					{ isPaidPlan && productInstallStatus && (
+					{ productInstallStatus && (
 						<Task
 							{ ...JETPACK_CHECKLIST_TASK_AKISMET }
 							onClick={ this.handleTaskStart( {
