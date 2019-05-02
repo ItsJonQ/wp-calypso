@@ -49,4 +49,14 @@ export default {
 
 		return true;
 	},
+
+	/**
+	 * Return an appropriate filter for Google Photo categories
+	 *
+	 * @param {string} filter The category to filter by
+	 * @returns {string} Google filter
+	 */
+	getGoogleCategoryFilter: function( filter ) {
+		return 'categoryInclude=' + filter;
+	},
 };
