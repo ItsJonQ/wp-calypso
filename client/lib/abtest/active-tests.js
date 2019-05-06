@@ -192,4 +192,13 @@ export default {
 		defaultVariation: 'noOffer',
 		allowExistingUsers: true,
 	},
+	showCheckoutCartRight: {
+		datestamp: '20190502',
+		variations: {
+			right: 50,
+			original: 50,
+		},
+		defaultVariation: 'right',
+		allowExistingUsers: true,
+	},
 };
