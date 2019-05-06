@@ -98,7 +98,7 @@ class Plans extends Component {
 		const { canPurchasePlans, selectedSiteSlug } = this.props;
 
 		if ( selectedSiteSlug && canPurchasePlans && config.isEnabled( 'jetpack/checklist' ) ) {
-			return this.redirect( CALYPSO_MY_PLAN_PAGE, { 'thank-you': '' } );
+			return this.redirect( CALYPSO_MY_PLAN_PAGE );
 		}
 
 		if ( selectedSiteSlug && canPurchasePlans ) {
