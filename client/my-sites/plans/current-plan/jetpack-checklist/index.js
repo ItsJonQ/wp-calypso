@@ -87,7 +87,7 @@ class JetpackChecklist extends PureComponent {
 				{ isPaidPlan && <QueryJetpackProductInstallStatus siteId={ siteId } /> }
 				{ isPaidPlan && <QueryRewindState siteId={ siteId } /> }
 
-				<JetpackChecklistHeader isPaidPlan={ isPaidPlan } />
+				<JetpackChecklistHeader />
 
 				<Checklist
 					isPlaceholder={ ! taskStatuses }
